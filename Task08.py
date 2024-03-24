@@ -1,7 +1,7 @@
 import square_gengerator
 
 
-class someClass2(square_gengerator.someClass):
+class CubicGenerator(square_gengerator.SquareGenerator):
     @staticmethod
     def func2(start, end):
         if end < start:
@@ -10,4 +10,4 @@ class someClass2(square_gengerator.someClass):
             return [x ** 3 for x in range(start, end)]
 
 
-print(someClass2.func2(1, 11))
+print(CubicGenerator.func2(1, 11))

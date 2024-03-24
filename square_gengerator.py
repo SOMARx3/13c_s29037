@@ -1,4 +1,4 @@
-class someClass:
+class SquareGenerator:
     @staticmethod
     def func(start1, end):
         if end < start1:
